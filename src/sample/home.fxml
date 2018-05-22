@@ -10,21 +10,23 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
     <children>
-        <AnchorPane layoutY="-8.0" prefHeight="409.0" prefWidth="305.0" style="-fx-background-color: #64b5f6;">
+        <AnchorPane layoutY="-8.0" prefHeight="409.0" prefWidth="305.0" style="-fx-background-color: #CCFF99;">
             <children>
                 <FontAwesomeIconView glyphName="GIFT" layoutX="114.0" layoutY="171.0" size="90" wrappingWidth="77.0" />
-                <Label layoutX="26.0" layoutY="187.0" text="Welcome to MIT SAIYAI " textFill="#f2f2f2">
+                <Label layoutX="26.0" layoutY="187.0" text="Welcome to MIT SAIYAI " textFill="#f50606">
                     <font>
                         <Font size="24.0" />
                     </font>
                 </Label>
-                <Label layoutX="21.0" layoutY="361.0" text="CopyRight @SAI" textFill="#041f79" />
+                <Label layoutX="21.0" layoutY="361.0" text="CopyRight @new" textFill="#041f79" />
             </children>
         </AnchorPane>
         <JFXTextField fx:id="username" labelFloat="true" layoutX="384.0" layoutY="55.0" promptText="username" />
         <JFXPasswordField fx:id="password" labelFloat="true" layoutX="384.0" layoutY="114.0" promptText="password" />
         <FontAwesomeIconView glyphName="USER" layoutX="352.0" layoutY="74.0" size="20" />
         <FontAwesomeIconView glyphName="LOCK" layoutX="354.0" layoutY="131.0" size="20" />
-        <JFXButton fx:id="btnLogin" layoutX="384.0" layoutY="174.0" prefHeight="25.0" prefWidth="135.0" style="-fx-background-color: #64b5f6;" text="Login" textFill="WHITE" />
+        <JFXButton fx:id="btnLogin" layoutX="384.0" layoutY="174.0" onAction="#Login" prefHeight="25.0" prefWidth="135.0" style="-fx-background-color: #CCFF99;" text="Login" textFill="#252323" />
+      <Label layoutX="346.0" layoutY="347.0" text=" DB status;" textFill="#bc1919" />
+      <Label layoutX="445.0" layoutY="347.0" prefHeight="17.0" prefWidth="135.0" />
     </children>
 </AnchorPane>
